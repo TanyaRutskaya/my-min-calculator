@@ -1,0 +1,61 @@
+.fieldsnames {
+    font-family: Verdana;
+    font-size: 50px;
+    padding-left:500px;
+    margin-bottom:90px;
+    color:blue;
+}
+.body{
+    background-image: url("http://img-fotki.yandex.ru/get/6615/16969765.ca/0_6bf4b_5bdfc8bb_orig.jpg");
+
+}
+p.description {
+    padding-left:25px;
+    color:red;
+    font-size: 40px;
+    font-style:italic;
+}
+
+.firstfield {
+    opacity: 0.6;
+    width:45px;
+    height: 40px;
+    border-color: green;
+    margin-top: 3px;
+    margin-left: 85px;
+    border-radius: 25%;}
+.secondfield{
+    opacity: 0.6;
+    width:45px;
+    height: 40px;
+    border-color: green;
+    margin-top: 3px;
+    margin-left: 50px;
+    border-radius: 25%;
+}
+
+.button {
+    width:47px;
+    height:47px;
+    margin-left:50px;
+    background-color: greenyellow;
+    opacity: 0.6;
+    border-radius: 75%;
+    border-color: antiquewhite;
+    font-size:20px;
+}
+.equals {width:47px;
+    height:47px;
+    margin-left:50px;
+    background-color: greenyellow;
+    opacity: 0.6;
+    border-radius: 75%;
+    border-color: antiquewhite;
+    font-size:20px;}
+.thirdfield {opacity: 0.6;
+    width:45px;
+    height: 40px;
+    border-color: green;
+    margin-top: 3px;
+    margin-left: 50px;
+    border-radius: 25%;}
