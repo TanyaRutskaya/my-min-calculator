@@ -16,17 +16,19 @@ p.description {
     font-style:italic;
 }
 
-.firstfield {
+.firstfield {position:relative;
+    right:665px;
     opacity: 0.6;
-    width:45px;
+    width:100px;
     height: 40px;
     border-color: green;
     margin-top: 3px;
     margin-left: 85px;
     border-radius: 25%;}
-.secondfield{
+.secondfield{position:relative;
+    right:670px;
     opacity: 0.6;
-    width:45px;
+    width:100px;
     height: 40px;
     border-color: green;
     margin-top: 3px;
@@ -35,6 +37,7 @@ p.description {
 }
 
 .button {
+
     width:47px;
     height:47px;
     margin-left:50px;
@@ -44,17 +47,85 @@ p.description {
     border-color: antiquewhite;
     font-size:20px;
 }
-.equals {width:47px;
+.actionbutton  {
+    display: inline-block;
+    width:47px;
     height:47px;
+    margin-left:50px;
+    background-color: yellow;
+    opacity: 0.6;
+    border-radius:15%;
+    border-color: darkcyan;
+    font-size:20px;
+
+}
+ #btnPlus {
+     position:relative;
+     right:15px;
+     display:inline-block;
+     float:left;
+    padding: 50px;
+    margin-top:100px;
+     font-size: 50px;
+     text-align:center;
+     line-height: 15%;
+
+ }
+
+#btnMinus {display:inline-block;
+    position:relative;
+    right:16px;
+    float:left;
+    padding: 50px;
+    margin-top:100px;
+    font-size: 50px;
+    line-height: 15%;
+    }
+
+#btnMultiply {display:inline-block;
+    position:relative;
+    bottom: -150px;
+    right:325px;
+    float:left;
+    padding: 50px;
+    margin-top:100px;
+    font-size: 50px;
+    line-height: 15%;
+    text-align:center;}
+#btnDevide {display:inline-block;
+    position:relative;
+    bottom: -150px;
+    right:325px;
+    float:left;
+    padding: 50px;
+    margin-top:100px;
+    font-size: 50px;
+line-height: 15%;
+
+}
+
+.equals {
+    position:relative;
+    bottom:-250px;
+    right:600px;
+    width:100px;
+    height:100px;
     margin-left:50px;
     background-color: greenyellow;
     opacity: 0.6;
     border-radius: 75%;
-    border-color: antiquewhite;
-    font-size:20px;}
-.thirdfield {opacity: 0.6;
-    width:45px;
-    height: 40px;
+    border-color: darkcyan;
+    font-size:50px;
+}
+
+
+.thirdfield {float:left;
+    position:relative;
+    bottom:-45px;
+    right:-547px;
+    opacity: 0.6;
+    width:150px;
+    height: 150px;
     border-color: green;
     margin-top: 3px;
     margin-left: 50px;
