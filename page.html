@@ -9,18 +9,21 @@
 <body class = "body">
     <h1 class = "fieldsnames" > КАЛЬКУЛЯТОР</h1>
 <form id = "calculator">
-        <p class="description"> Введите цифры в поля и нажмите кнопку "равно", чтобы получить результат.</p>
-        <p><input id="num1" class="firstfield" type="number">
-
+        <div class="description"> Введите цифры в поля и нажмите кнопку "равно", чтобы получить результат.</div>
+        <div class="calcfields">
+            <input id="num1" class="firstfield" type="number">
             <input id="num2" class="secondfield" type="number">
-            <input id="btnRun" onclick=calk() class="equals" type="button" value="=">
             <input id="run" class="thirdfield" type="number">
-            <input id="btnPlus" class="actionbutton" type="button" value="+">
+            </div>
+
+            <div>
+                <input id="btnPlus" class="actionbutton" type="button" value="+">
             <input id="btnMinus" class="actionbutton" type="button" value="-">
             <input id="btnMultiply" class="actionbutton" type="button" value="*">
             <input id="btnDevide" class="actionbutton" type="button" value=":">
+            <input id="btnEquals" onclick=calk() class="actionbutton" type="button" value="=">
 
-        </p>
+        </div>
 
     </form>
     </body>
