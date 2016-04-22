@@ -5,26 +5,27 @@
     <meta charset="UTF-8">
     </head>>
     <title > КАЛЬКУЛЯТОР </title>
-<script src="calculations.js"> </script>
-<body class = "body">
-    <h1 class = "fieldsnames" > КАЛЬКУЛЯТОР</h1>
-<form id = "calculator">
-        <div class="description"> Введите цифры в поля и нажмите кнопку "равно", чтобы получить результат.</div>
-        <div class="calcfields">
-            <input id="num1" class="firstfield" type="number">
-            <input id="num2" class="secondfield" type="number">
-            <input id="run" class="thirdfield" type="number">
+
+<body>
+<div id="calculator">
+    <div id="h1"> КАЛЬКУЛЯТОР </div>
+        <div class="description"> Введите цифры в поля и нажмите кнопку "равно", чтобы получить результат.</div> <br>
+            <div><input id="num1"  type="number"/> </div>
+            <div><input id="num2"  type="number"/></div>
+            <div><input id="run"   type="number"/></div> <br> <br>
+
+
+            <div class="actionbutton">
+                  <button id="btnPlus" onClick = "calculation('btnPl')"> + </button>
+                  <button  id="btnMinus" onClick = "calculation('btnMin')"> - </button>
+                  <button id="btnMultiply" onClick = "calculation('btnMul')"> * </button>
+                  <button id="btnDevide" onClick = "calculation('btnDev')"> / </button>
+
             </div>
 
-            <div>
-                <input id="btnPlus" class="actionbutton" type="button" value="+">
-            <input id="btnMinus" class="actionbutton" type="button" value="-">
-            <input id="btnMultiply" class="actionbutton" type="button" value="*">
-            <input id="btnDevide" class="actionbutton" type="button" value=":">
-            <input id="btnEquals" onclick=calk() class="actionbutton" type="button" value="=">
-
-        </div>
-
+    </div>
+    </div>
     </form>
+<script src="calculations.js"> </script>
     </body>
 </html>

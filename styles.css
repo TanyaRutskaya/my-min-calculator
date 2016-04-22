@@ -1,137 +1,88 @@
-.fieldsnames {
-
-    font-family: Verdana;
-    font-size: 50px;
+#h1 {
+    display:inline-block;
+    font-family:Comic Sans;
+    font-size:50px;
     padding-left:500px;
     margin-bottom:90px;
     color:blue;
 }
-.body{
+body {
     background-image: url("http://img-fotki.yandex.ru/get/6615/16969765.ca/0_6bf4b_5bdfc8bb_orig.jpg");
-    margin:0 auto;
-    padding: 0 auto;
 }
-div.description {
-    padding-left:25px;
-    color:red;
-    font-size: 40px;
-    font-style:italic;
+ .description {
+     font-family:Gadugi;
+     color:red;
+     font-size: 40px;
+     font-style:italic;
 }
-
-div .calcfields {
-   width:100%;
-    height:100%;
-    position:relative;
-    float:left;
-
+div,input{
+    margin: 0;
+    padding: 0;
 }
-
-div .firstfield {
-    width: 5%;
-    border-color: green;
-    margin-top: 50px;
-    margin-left: 85px;
-    opacity: 0.6;
-    border-radius: 20%;
-    padding: 10px;
+#calculator {
+    width: 100%;
 }
-div .secondfield{
-    width: 5%;
-    border-color: green;
-    margin-top: 50px;
-    margin-left: 50px;
-    opacity: 0.6;
-    border-radius: 20%;
-    padding: 10px;
+#calculator > div {
+    display:inline-block;
 }
-div .thirdfield {
-    width: 5%;
-    padding:10px;
-    opacity: 0.6;
-    border-color: green;
-    margin-top: 50px;
-    margin-left: 50px;
-    border-radius: 20%;
-
-    }
-
-
-div .actionbutton  {
-    position:relative;
-    float:left;
-    width:100%;
-    height: 100%;
-    margin-left:50px;
-    margin-top:100px;
-    background-color: yellow;
+#calculator .actionbutton {
+    margin-top:50px;
+    text-align:center;
+    width:25%;
+}
+#calculator .actionbutton #btnPlus {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+    border: 2px solid darkcyan;
+    font-size:45px;
     border-radius:15%;
-    border-color: darkcyan;
-    font-size:20px;
-
+    padding-left:5px;
+    margin-left:10px;
+    margin-right:10px;
 }
- #btnPlus {
-     width:6%;
-     position:relative;
-     left:30px;
-     display:inline-block;
-
-     padding: 50px;
-     margin-top:100px;
-     font-size: 50px;
-     text-align:center;
-     line-height: 15%;
-
- }
-
-#btnMinus {
-    width:6%;
-    display:inline-block;
-    position:relative;
-    left:20px;
-
-    padding: 50px;
-    margin-top:100px;
-    font-size: 50px;
-    line-height: 15%;
-    }
-
-#btnMultiply {
-    width:6%;
-    display:inline-block;
-    position:relative;
-    bottom: -150px;
-    right:300px;
-
-    padding: 50px;
-    margin-top:100px;
-    font-size: 50px;
-    line-height: 15%;
+#calculator .actionbutton #btnMinus {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(pink), to(hotpink));
+    border: 2px solid darkorchid;
+    font-size:45px;
+    border-radius:15%;
+    padding-left:15px;
+    margin-left:10px;
+    margin-right:10px;
+}
+#calculator .actionbutton #btnMultiply {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(peachpuff), to(purple));
+    border: 2px solid rebeccapurple;
+    font-size:45px;
+    border-radius:15%;
+    padding-left:15px;
+    margin-left:10px;
+    margin-right:10px;
+   }
+#calculator .actionbutton #btnDevide {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(greenyellow), to(lightseagreen));
+    border: 1px solid darkgreen;
+    font-size:45px;
+    border-radius:15%;
+    padding-left:20px;
+    margin-left:10px;
+    margin-right:10px;
+}
+div, input {
+    margin:0;
+    padding:0;
+}
+#calculator input {
+    margin-top: 20px;
+    border: 2px solid darkcyan;
+    width:30%;
+    border-radius:5px;
     text-align:center;
 }
-#btnDevide {
-    display:inline-block;
-    width:6%;
-    position:relative;
-    bottom: -150px;
-    right:305px;
-
-    padding: 50px;
-    margin-top:100px;
-    font-size: 50px;
-    line-height: 15%;
-
+#calculator  #num1 {
+padding:10px;
 }
-
-#btnEquals {
-    width:6%;
-    display:inline-block;
-    position:relative;
-    right:305px;
-    float:left;
-    padding: 50px;
-    margin-top:150px;
-    font-size: 50px;
-    line-height: 15%;
+#calculator  #num2 {
+    padding:10px;
 }
-
-
+#calculator  #run {
+    padding:10px;
+}

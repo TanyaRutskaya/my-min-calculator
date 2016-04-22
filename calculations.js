@@ -1,36 +1,28 @@
 
-
-function calk(switchID) {
-    Console.log(  switchID);
-    var r = 0;
-    var result = document.getElementById('run');
-    var n1 = document.getElementById('num1').value;
-    var n2 = document.getElementById('num2').value;
-    switch (switchID) {
-        case'btnPlus':
-            r = n1 * 1 + n2 * 1;
+function calculation (switchID) {
+    var n1 = document.getElementById('num1').value*1;
+    var n2 = document.getElementById('num2').value*1;
+    var result;
+    switch(switchID){
+        case 'btnPl':
+            result = n1 * 1 + n2 * 1;
             break;
-        case 'btnMinus':
-            r = n1 * 1 - n2 * 1;
+        case 'btnMin':
+            result = n1 * 1 - n2 * 1;
             break;
-        case 'btnMultiply':
-            r = n1 * 1 * n2 * 1;
+        case 'btnDev':
+            result = n1 * 1 / n2 * 1;
             break;
-        case 'btnDevide':
-            r = n1 * 1 / n2 * 1;
+        case 'btnMul':
+            result = n1 * 1 * n2 * 1;
             break;
     }
-
-    result.value = r;
+    return document.getElementById('run').value = result;
 }
+var btnPl = document.getElementById('btnPlus');
+var btnMin = document.getElementById('btnMinus');
+var btnDev = document.getElementById('btnDevide').value;
+var btnMul = document.getElementById('btnMultiply').value;
+//btnPl.onclick = calculation('btnPl');
 
-window.onload = function () {
-    var btnDevide = document.getElementById('btnDevide');
-    btnDevide.onClick = calk('btnDevide');
-    var btnPlus = document.getElementById('btnPlus');
-    btnPlus.onClick = calk('btnPlus');
-    var btnMinus = document.getElementById('btnMinus');
-    btnMinus.onClick = calk('btnMinus');
-    var btnMultiply = document.getElementById('btnMultiply');
-    btnMultiply.onClick = calk('btnMultiply');
-}
+
