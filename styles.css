@@ -1,23 +1,23 @@
-#h1 {
+#name {
     display:inline-block;
-    font-family:Comic Sans;
+    font-family:Vivaldi;
     font-size:50px;
     padding-left:500px;
     margin-bottom:90px;
-    color:blue;
+    color:lightblue;
 }
 body {
-    background-image: url("http://img-fotki.yandex.ru/get/6615/16969765.ca/0_6bf4b_5bdfc8bb_orig.jpg");
+    background-image:url("https://images2.alphacoders.com/553/553697.jpg");
 }
- .description {
-     font-family:Gadugi;
-     color:red;
-     font-size: 40px;
-     font-style:italic;
+.description {
+    font-family:Vivaldi;
+    color:palevioletred;
+    font-size: 40px;
+    font-style:italic;
 }
 div,input{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 #calculator {
     width: 100%;
@@ -26,63 +26,81 @@ div,input{
     display:inline-block;
 }
 #calculator .actionbutton {
-    margin-top:50px;
     text-align:center;
-    width:25%;
+    color: aquamarine;
 }
 #calculator .actionbutton #btnPlus {
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
-    border: 2px solid darkcyan;
+    background-image: url("https://images2.alphacoders.com/553/553697.jpg");
+    border: 2px solid whitesmoke;
     font-size:45px;
     border-radius:15%;
     padding-left:5px;
     margin-left:10px;
     margin-right:10px;
+    color: ghostwhite;
 }
 #calculator .actionbutton #btnMinus {
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(pink), to(hotpink));
-    border: 2px solid darkorchid;
+    background-image: url("https://images2.alphacoders.com/553/553697.jpg");
+    border: 2px solid whitesmoke;
     font-size:45px;
     border-radius:15%;
     padding-left:15px;
     margin-left:10px;
     margin-right:10px;
+    color: ghostwhite;
 }
 #calculator .actionbutton #btnMultiply {
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(peachpuff), to(purple));
-    border: 2px solid rebeccapurple;
+    background-image: url("https://images2.alphacoders.com/553/553697.jpg");
+    border: 2px solid whitesmoke;
     font-size:45px;
     border-radius:15%;
     padding-left:15px;
     margin-left:10px;
     margin-right:10px;
-   }
+    color: ghostwhite;
+}
 #calculator .actionbutton #btnDevide {
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(greenyellow), to(lightseagreen));
-    border: 1px solid darkgreen;
+    background-image: url("https://images2.alphacoders.com/553/553697.jpg");
+    border: 2px solid whitesmoke;
     font-size:45px;
     border-radius:15%;
     padding-left:20px;
     margin-left:10px;
     margin-right:10px;
+    color: ghostwhite;
 }
 div, input {
     margin:0;
     padding:0;
 }
 #calculator input {
-    margin-top: 20px;
-    border: 2px solid darkcyan;
+    font-size: 100%;
+    border: 3px solid darkcyan;
     width:30%;
     border-radius:5px;
     text-align:center;
+    margin-left: 25%;
+    margin-bottom:5%;
 }
 #calculator  #num1 {
-padding:10px;
+    padding:10px;
+    margin-right:-60px;
 }
 #calculator  #num2 {
     padding:10px;
+    margin-right:-60px;
 }
 #calculator  #run {
     padding:10px;
+    background-color: aquamarine;
 }
+#block {
+    border-radius:5%;
+    background:url("http://www.featurepics.com/FI/Thumb300/20090414/White-Chalk-Over-Blackboard-Background-1152054.jpg");
+    margin-left:5%;
+    margin-top:5%;
+    padding:10% 5% 10% 5%;
+    border: 5px solid floralwhite;
+}
+
+

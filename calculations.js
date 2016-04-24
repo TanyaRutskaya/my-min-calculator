@@ -1,4 +1,3 @@
-
 function calculation (switchID) {
     var n1 = document.getElementById('num1').value*1;
     var n2 = document.getElementById('num2').value*1;
@@ -23,6 +22,3 @@ var btnPl = document.getElementById('btnPlus');
 var btnMin = document.getElementById('btnMinus');
 var btnDev = document.getElementById('btnDevide').value;
 var btnMul = document.getElementById('btnMultiply').value;
-//btnPl.onclick = calculation('btnPl');
-
-
